@@ -108,6 +108,76 @@
 				}
 			},
 			"response": []
+		},
+		{
+			"name": "http://localhost:8082/token",
+			"protocolProfileBehavior": {
+				"disabledSystemHeaders": {
+					"connection": true,
+					"accept-encoding": true,
+					"accept": true,
+					"user-agent": true,
+					"host": true
+				}
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJZRTlibGdOOV9ORjl6cHJGaVdiOTVBaVhaNTliSUczQjlzZXMzVDVlY0Z3In0.eyJleHAiOjE2OTkwMzU5MjMsImlhdCI6MTY5OTAzNTYyMywiYXV0aF90aW1lIjoxNjk5MDMzODM4LCJqdGkiOiIyZjlmZjRjOC0xYWYyLTRkODktYmEyYi1jMjk1NDIxMmM0MzEiLCJpc3MiOiJodHRwOi8vbG9jYWxob3N0OjgwODAvcmVhbG1zL2FwcHNkZXZlbG9wZXJibG9nIiwiYXVkIjoiYWNjb3VudCIsInN1YiI6ImI4OGNhZTdhLTcwZjktNDlhMC05YTkzLTMxMDU2YjBkYTNkZSIsInR5cCI6IkJlYXJlciIsImF6cCI6InBob3RvLWFwcC1jb2RlLWZsb3ctY2xpZW50Iiwic2Vzc2lvbl9zdGF0ZSI6IjFiMTMwNzY2LTZkNDUtNDAwMi1hZjdhLTZhNThkNGI4NTIxYSIsImFjciI6IjAiLCJhbGxvd2VkLW9yaWdpbnMiOlsiKiJdLCJyZWFsbV9hY2Nlc3MiOnsicm9sZXMiOlsiZGVmYXVsdC1yb2xlcy1hcHBzZGV2ZWxvcGVyYmxvZyIsIm9mZmxpbmVfYWNjZXNzIiwidW1hX2F1dGhvcml6YXRpb24iXX0sInJlc291cmNlX2FjY2VzcyI6eyJhY2NvdW50Ijp7InJvbGVzIjpbIm1hbmFnZS1hY2NvdW50IiwibWFuYWdlLWFjY291bnQtbGlua3MiLCJ2aWV3LXByb2ZpbGUiXX19LCJzY29wZSI6Im9wZW5pZCBwcm9maWxlIGVtYWlsIiwic2lkIjoiMWIxMzA3NjYtNmQ0NS00MDAyLWFmN2EtNmE1OGQ0Yjg1MjFhIiwiZW1haWxfdmVyaWZpZWQiOmZhbHNlLCJuYW1lIjoiYXNodXRvc2ggc2hyaWFuc2giLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiJhc2hyaWFuc2giLCJsb2NhbGUiOiJlbiIsImdpdmVuX25hbWUiOiJhc2h1dG9zaCIsImZhbWlseV9uYW1lIjoic2hyaWFuc2giLCJlbWFpbCI6InNocmlhbnNoYXNodXRvc2hAZ21haWwuY29tIn0.DFWHkqva6OiR8Y9XZ9ipEtIFxrPswa6euos7vK_HziSUlMtB8bi74g7mTLx5Bo83-zrPNQrkcouRcsOiC-IjaDkKj_YEqF6P4xE56vjxDyaYeOfPppk6P3KHFHhxaI2C5m1rKyE-nxAUiM6iM0DsZhNtmtu9v04plWTuxs6PPWfDXvbRfrCMtRRBPDG_L4w7-NB-sU9CpBSRA7Iqs4kjxITQeQlWPVMNeee5NrUYA11l4IR7MHD4hIninGdh4zbBLew2DcGWan2A7QIP0DsmI8DtnuxGUdB-UcDgRNcKnAnnVR3ukETlc3_UEquAhGYGlktl32ctl6Az7d74ZneDAg",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8082/token",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"token"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8082/users/status/check",
+			"protocolProfileBehavior": {
+				"disabledSystemHeaders": {
+					"connection": true,
+					"accept-encoding": true,
+					"accept": true,
+					"user-agent": true,
+					"host": true
+				}
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJZRTlibGdOOV9ORjl6cHJGaVdiOTVBaVhaNTliSUczQjlzZXMzVDVlY0Z3In0.eyJleHAiOjE2OTkwMzU5MjMsImlhdCI6MTY5OTAzNTYyMywiYXV0aF90aW1lIjoxNjk5MDMzODM4LCJqdGkiOiIyZjlmZjRjOC0xYWYyLTRkODktYmEyYi1jMjk1NDIxMmM0MzEiLCJpc3MiOiJodHRwOi8vbG9jYWxob3N0OjgwODAvcmVhbG1zL2FwcHNkZXZlbG9wZXJibG9nIiwiYXVkIjoiYWNjb3VudCIsInN1YiI6ImI4OGNhZTdhLTcwZjktNDlhMC05YTkzLTMxMDU2YjBkYTNkZSIsInR5cCI6IkJlYXJlciIsImF6cCI6InBob3RvLWFwcC1jb2RlLWZsb3ctY2xpZW50Iiwic2Vzc2lvbl9zdGF0ZSI6IjFiMTMwNzY2LTZkNDUtNDAwMi1hZjdhLTZhNThkNGI4NTIxYSIsImFjciI6IjAiLCJhbGxvd2VkLW9yaWdpbnMiOlsiKiJdLCJyZWFsbV9hY2Nlc3MiOnsicm9sZXMiOlsiZGVmYXVsdC1yb2xlcy1hcHBzZGV2ZWxvcGVyYmxvZyIsIm9mZmxpbmVfYWNjZXNzIiwidW1hX2F1dGhvcml6YXRpb24iXX0sInJlc291cmNlX2FjY2VzcyI6eyJhY2NvdW50Ijp7InJvbGVzIjpbIm1hbmFnZS1hY2NvdW50IiwibWFuYWdlLWFjY291bnQtbGlua3MiLCJ2aWV3LXByb2ZpbGUiXX19LCJzY29wZSI6Im9wZW5pZCBwcm9maWxlIGVtYWlsIiwic2lkIjoiMWIxMzA3NjYtNmQ0NS00MDAyLWFmN2EtNmE1OGQ0Yjg1MjFhIiwiZW1haWxfdmVyaWZpZWQiOmZhbHNlLCJuYW1lIjoiYXNodXRvc2ggc2hyaWFuc2giLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiJhc2hyaWFuc2giLCJsb2NhbGUiOiJlbiIsImdpdmVuX25hbWUiOiJhc2h1dG9zaCIsImZhbWlseV9uYW1lIjoic2hyaWFuc2giLCJlbWFpbCI6InNocmlhbnNoYXNodXRvc2hAZ21haWwuY29tIn0.DFWHkqva6OiR8Y9XZ9ipEtIFxrPswa6euos7vK_HziSUlMtB8bi74g7mTLx5Bo83-zrPNQrkcouRcsOiC-IjaDkKj_YEqF6P4xE56vjxDyaYeOfPppk6P3KHFHhxaI2C5m1rKyE-nxAUiM6iM0DsZhNtmtu9v04plWTuxs6PPWfDXvbRfrCMtRRBPDG_L4w7-NB-sU9CpBSRA7Iqs4kjxITQeQlWPVMNeee5NrUYA11l4IR7MHD4hIninGdh4zbBLew2DcGWan2A7QIP0DsmI8DtnuxGUdB-UcDgRNcKnAnnVR3ukETlc3_UEquAhGYGlktl32ctl6Az7d74ZneDAg",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8082/users/status/check",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"users",
+						"status",
+						"check"
+					]
+				}
+			},
+			"response": []
 		}
 	]
 }
